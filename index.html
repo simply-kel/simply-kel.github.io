@@ -14,13 +14,16 @@
             document.getElementById('player').play()
             document.getElementById('player').currentTime = 0;
             document.getElementById('img').src = "img/lobster.png"
-            document.getElementById('amogus').innerText = "Lobster"
+            //width="128px"
+            document.getElementById('img').width = "512"
+            document.getElementById('amogus').innerText = ""
             // 18*1000
             setTimeout(stop, 18000)
         }
         function stop(){
             document.getElementById('player').pause()
             document.getElementById('img').src = "img/monke.gif"
+            document.getElementById('img').width = "128"
             document.getElementById('amogus').innerText = "Monke"
         }
     </script>
