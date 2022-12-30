@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lobster</title>
+    <meta name="description" content="Monke or Lobster?">
+    <meta name="icon" content="img/monke.gif">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" type="text/css" href="style/index.css">
+    <link rel="icon" href="img/lobster.png">
+    
+    <script>
+        function run(){
+            document.getElementById('player').play()
+            document.getElementById('player').currentTime = 0;
+            document.getElementById('img').src = "img/lobster.png"
+            //width="128px"
+            document.getElementById('img').width = "512"
+            document.getElementById('amogus').innerText = ""
+            // 18*1000
+            setTimeout(stop, 18000)
+        }
+        function stop(){
+            document.getElementById('player').pause()
+            document.getElementById('img').src = "img/monke.gif"
+            document.getElementById('img').width = "128"
+            document.getElementById('amogus').innerText = "Monke"
+        }
+    </script>
+</head>
+
+<body>
+    <audio id="player" src="audio/AMOGUS-BASS-BOOSTED-V2.mp3"></audio>
+    <img id="img" src="img/monke.gif" width="128px" onclick="run()">
+    <h1 id="amogus" onclick="window.open('https:\/\/www.youtube.com\/watch?v=dQw4w9WgXcQ')">Monke</h1>
+</body>
+
+</html>

@@ -1,38 +1,67 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Kel.sh</title>
+        <link rel="icon" href="">
+        <link rel="stylesheet" href="assets/style.css">
+        <script src="js/index.js"></script>
+        <style>
+            img[id=skin]{
+                border-radius: 10%;
+                border: 5px white;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>
+                <nav class="menu">
+                    <ul>
+                        <span style="float: left">
+                            kel@simply-kel.github.io:~
+                        </span>
 
-<head>
-    <title>Lobster</title>
-    <meta name="description" content="Monke or Lobster?">
-    <meta name="icon" content="img/monke.gif">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" type="text/css" href="style/index.css">
-    <link rel="icon" href="img/lobster.png">
-    
-    <script>
-        function run(){
-            document.getElementById('player').play()
-            document.getElementById('player').currentTime = 0;
-            document.getElementById('img').src = "img/lobster.png"
-            //width="128px"
-            document.getElementById('img').width = "512"
-            document.getElementById('amogus').innerText = ""
-            // 18*1000
-            setTimeout(stop, 18000)
-        }
-        function stop(){
-            document.getElementById('player').pause()
-            document.getElementById('img').src = "img/monke.gif"
-            document.getElementById('img').width = "128"
-            document.getElementById('amogus').innerText = "Monke"
-        }
-    </script>
-</head>
+                        <a href="/monke">monke.html</a>
+                    </ul>
+                </nav>
+            </h1>
+            <h1>kel@simply-kel.github.io:~$ bash start.sh</h1>
+            <h1># Обо мне</h1>
+            <img id="skin", src="img/skin.png", width="128px", style="margin-top: 8px; margin-right: 10px; margin-left: 10px;", align="right">
+            <p>
+                Я - Кел [Simply_Kel], какой-то разраб который просто балуется с кодом<br>
+                Основном Java, JavaScript, HTML/CSS<br>
+                Занимаюсь творчеством, рисую артики, делаю видосики [~99% видосов не выходят на ютубе]<br>
+                У меня есть такие соц. сети как: <a href="https://youtube.com/@Simply_Kel">YouTube</a>, <a href="https://t.me/yeah_Simply_Kel">Telegram</a>, <a href="https://tiktok.com/@.simply_kel">TikTok</a><br>
+                Что я основном делаю из кода?<br>
+                - Моды для <a href="https://minecraft.net">Minecraft</a>, загрузчика <a href="https://fabricmc.net">Fabric</a>
+            </p>
+            <h1># Проекты</h1>
+            <p>
+                RevolutionWorlds [Discord бот] - бот для регистрации и канала #города<br>
+                <a href="https://modrinth.com/mod/simplystatus">SimplyStatus - Игровой статус Discord для Minecraft [Fabric]</a><br>
+                <a href="https://modrinth.com/mod/snow">Snow - Мод который делает температуру мира низкой, не изменяя биомы</a><br>
+            </p>
+            <h1># Какие-то видосы которые мне нравятся</h1>
+            <p>
+                Конец первого вайпа 1.19<br>
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9XK8SD5QCsI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+                Конец 1.16<br>
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/i-hdCzs96Ug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+            </p>
+            <h1># А это просто котяра</h1>
+            <p>
+                <br>
+　　　　　 ／ ＞   　フ<br>
+　　　　　|　-　- |<br>
+　 　　　／`ミ x 彡<br>
+　　 　 /　　　 　|<br>
+　　　 /　 ヽ　　 ﾉ<br>
+　／￣|　　 |　|　|
+            </p>
+            <h1 id="ssh">kel@simply-kel.github.io:~$ </h1><br><br>
 
-<body>
-    <audio id="player" src="audio/AMOGUS-BASS-BOOSTED-V2.mp3"></audio>
-    <img id="img" src="img/monke.gif" width="128px" onclick="run()">
-    <h1 id="amogus" onclick="window.open('https:\/\/www.youtube.com\/watch?v=dQw4w9WgXcQ')">Monke</h1>
-</body>
-
+        </div>
+    </body>
 </html>
