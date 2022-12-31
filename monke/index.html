@@ -10,7 +10,10 @@
     <link rel="icon" href="img/lobster.png">
     
     <script>
+        var lockClick = false;
         function run(){
+            if(lockClick == true) return console.log("Another Mistake");
+            else lockClick = true;
             document.getElementById('player').play()
             document.getElementById('player').currentTime = 0;
             document.getElementById('img').src = "img/lobster.png"
@@ -25,6 +28,7 @@
             document.getElementById('img').src = "img/monke.gif"
             document.getElementById('img').width = "128"
             document.getElementById('amogus').innerText = "Monke"
+            lockClick = false;
         }
     </script>
 </head>
